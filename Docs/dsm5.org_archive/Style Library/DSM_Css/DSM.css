@@ -1,0 +1,490 @@
+﻿body {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p {margin-top: 0px;}
+img {border-width: 0px;}
+form {padding:0px;margin:0px;}
+h1 {
+	margin: 0px 0px 16px 0px;
+	font-size: 22px;
+	color: #1F477D;
+	font-weight: bold;
+}
+h2 {
+	font-size: 18px;
+	color: #336699;
+	font-weight: bold;	
+	margin: 0px 0px 10px 0px;	
+}
+a:link, a:visited {
+	color: #336699;	
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.DSM_clear {
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+strong, b {
+	font-weight: bold;
+	color: #1F477D;
+}
+#DSM_MainContainer {
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+#DSM_MainContainer p {
+	margin-bottom: 14px;
+}
+
+
+/* ---- HEADER ---- */
+
+#DSM_Header {
+	height: 104px;
+	background: url(../DSM_Images/logo.gif) left top no-repeat;
+	position: relative;
+}
+#DSM_Header h1 {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	width: 380px;
+	height: 80px;
+	margin: 0px;
+	text-indent: -5000px;
+	overflow: hidden;	
+}
+#DSM_Header h1 a:link, #DSM_Header h1 a:visited, #DSM_Header h1 a:hover {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#DSM_UtilityLinks {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	font-size: 10px;
+}
+
+#DSM_UtilityLinks2 {
+	position: absolute;
+	top: 10px;
+	right: 110px;
+	font-size: 10px;
+}
+
+#DSM_UtilityLinks3 {
+position: absolute;
+top: 10px;
+right: 230px;
+font-size: 10px;
+}
+
+#DSM_UtilityLinks a:link, #DSM_UtilityLinks a:visited, 
+#DSM_UtilityLinks a:hover,
+#DSM_UtilityLinks2 a:link, #DSM_UtilityLinks2 a:visited, 
+#DSM_UtilityLinks2 a:hover,
+#DSM_UtilityLinks3 a:link, #DSM_UtilityLinks3 a:visited, 
+#DSM_UtilityLinks3 a:hover {
+	color: #CCFFFF;
+}
+#DSM_SearchForm {
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+}
+#DSM_SearchForm a:link, #DSM_SearchForm a:visited, #DSM_SearchForm a:hover {
+	color: #FFFFFF;
+	font-size: 10px;
+}
+#DSM_SearchForm table {
+	border-width: 0px;
+	border-collapse: collapse;
+}
+#DSM_SearchField {
+	margin-right: 2px;
+	width: 138px;
+}
+
+/* ---- TOP NAVIGATION ---- */
+
+#DSM_TopNavBar {
+	height: 34px;
+	color: #FFFFFF;
+	font-size: 15px;	
+}
+a.DSM_staticNavItem:link, a.DSM_staticNavItem:visited,
+a.DSM_staticNavItem:hover {
+	display: block;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 8px 16px 9px 16px;
+	white-space: nowrap;
+}
+a.DSM_staticNavSelected:link, a.DSM_staticNavSelected:visited,
+a.DSM_staticNavSelected:hover,
+a.DSM_staticNavHover:link, a.DSM_staticNavHover:visited,
+a.DSM_staticNavHover:hover {
+	background: url(../DSM_Images/topNav_On.gif) left top repeat-x;
+	white-space: nowrap;
+}
+div.DSM_dynamicNav {
+/*	width: 240px; */
+	background-color: #FFFFFF;
+	font-size: 11px;
+	white-space: nowrap;
+}
+a.DSM_dynamicNavItem:link, a.DSM_dynamicNavItem:visited, a.DSM_dynamicNavItem:hover {
+	display: block;
+	padding: 4px 10px 4px 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	white-space: nowrap;
+}
+table.DSM_dynamicNavItem {
+	border: solid #565656;
+	border-width: 0px 1px 1px 1px;
+	white-space: nowrap;
+}
+a.DSM_dynamicNavHover:link, a.DSM_dynamicNavHover:visited, a.DSM_dynamicNavHover:hover {
+	background-color: #CCFFFF;
+	white-space: nowrap;
+}
+.DSM_dynamicNavSelected {
+	
+}
+
+/* ---- CONTENT STYLE FOR MOSS SYSTEM PAGES (override in Page Layouts) ---- */
+
+#DSM_MainContent {
+	background-color: #FFFFFF;
+	padding: 10px;
+	min-height: 200px;
+}
+
+/* ---- GENERAL CONTENT LAYOUT ---- */
+
+#DSM_Breadcrumbs {
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.DSM_bcSeparator {
+	
+}
+.DSM_bcCurrent {
+	
+}
+.DSM_bcNode {
+	
+}
+#DSM_LeftCol {
+	float: left;
+	width: 696px;
+	padding: 20px 12px 20px 12px;
+	background-color: #FFFFFF;
+	min-height: 170px;
+}
+#DSM_RightCol {
+	float: right;
+	width: 218px;
+	padding: 20px 0px 20px 0px;
+}
+
+/* ---- FORM FIELDS ---- */
+
+#DSM_MainContainer input[type="text"], #DSM_MainContainer input[type="password"], textarea {
+	border: solid #666666 1px;
+}
+#DSM_MainContainer button, #DSM_MainContainer input[type="button"], 
+#DSM_MainContainer input[type="submit"], #DSM_MainContainer input[type="reset"] {
+	border: solid #990000 1px;
+	background-color: #CC6600;
+	color: #FFFFFF;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2px 4px 2px 4px;
+}
+.DSM_CommentField {
+	width: 100%;
+	height: 100px;
+	margin-top: 4px;
+}
+
+/* ---- HOME PAGE ONLY ---- */
+
+#DSM_hp_topLeft, #DSM_hp_topRight {
+	height: 187px;
+	margin-bottom: 17px;
+	overflow: hidden;
+}
+#DSM_hp_topLeft {
+	width: 620px;
+}
+#DSM_hp_topLeft h1 {
+	margin: 0px 0px 16px 0px;
+	font-size: 26px;
+	color: #336699;
+	font-weight: normal;	
+}
+#DSM_hp_topRight, #DSM_int_topRight {
+	font-size: 11px;
+}
+#DSM_hp_topRight input, #DSM_hp_topRight p,
+#DSM_int_topRight input, #DSM_int_topRight p {
+	margin-bottom: 4px;
+}
+#DSM_hp_topRight input[type="text"], #DSM_hp_topRight input[type="password"],
+#DSM_int_topRight input[type="text"], #DSM_int_topRight input[type="password"] {
+	width: 150px;
+}
+#DSM_hp_btmLeft {
+	float: left;
+	width: 204px;
+	background: url(../DSM_Images/hp_SideBar_Fill.gif) left top repeat-y;
+}
+#DSM_hp_btmMid {
+	float: right;
+	width: 442px;
+	padding: 14px 40px 0px 0px;
+}
+#DSM_hp_btmRight {
+	width: 204px;
+	background: url(../DSM_Images/hp_SideBar_Fill.gif) left top repeat-y;
+}
+.DSM_hp_sidebarOuter {
+	background: url(../DSM_Images/hp_SideBar_Top.gif) left top no-repeat;	
+}
+.DSM_hp_sidebarInner {
+	background: url(../DSM_Images/hp_SideBar_Btm.gif) left bottom no-repeat;	
+	padding: 14px 10px 10px 10px;
+	min-height: 320px;
+}
+
+/* ---- INTERIOR PAGES ---- */
+
+#DSM_int_topRight {
+	height: 187px;
+	margin-bottom: 17px;
+	overflow: hidden;
+}
+#DSM_int_topRight h2, #DSM_int_btmRight h2, #DSM_hp_topRight h2 {
+	margin: 0px 0px 10px 0px;
+	font-size: 22px;
+	color: #336699;
+	font-weight: normal;	
+}
+
+/* ---- REVISION TABS ---- */
+
+.DSM_TabBar {
+	margin-bottom: 20px;
+	border-bottom: solid #336699 1px;
+	height: 23px;
+}
+.DSM_TabBar ul {
+	padding: 0px;
+	margin: 0px 0px 0px 8px;
+	list-style: none;
+}
+.DSM_TabBar ul li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	float: left;
+}
+.DSM_TabBar ul li a:link, .DSM_TabBar ul li a:visited,
+.DSM_TabBar ul li a:hover {
+	display: block;
+	background-color: #336699;
+	margin: 0px 4px 0px 0px;
+	padding: 4px 14px 4px 14px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+.DSM_TabBar ul.DSM_Right a:link, .DSM_TabBar ul.DSM_Right a:visited,
+.DSM_TabBar ul.DSM_Right a:hover {
+	margin: 0px 0px 0px 1px;
+}
+.DSM_TabBar ul li a.DSM_TabOn:link,
+.DSM_TabBar ul li a.DSM_TabOn:visited,
+.DSM_TabBar ul li a.DSM_TabOn:hover {
+	background-color: #FFFFFF;
+	color: #336699;
+	border: solid #336699;
+	border-width: 1px 1px 0px 1px;
+}
+.DSM_TabBar ul li a.DSM_TabOff:link,
+.DSM_TabBar ul li a.DSM_TabOff:visited,
+.DSM_TabBar ul li a.DSM_TabOff:hover {
+	background-color: #336699;
+	color: #FFFFFF;
+}
+#DSM_TabContent_Proposed, #DSM_TabContent_Rationale,
+#DSM_TabContent_Severity, #DSM_TabContent_DSM-IV {
+	padding-bottom: 10px;
+}
+#DSM_TabContent_Proposed {
+	display: block;
+}
+#DSM_TabContent_Rationale {
+	display: none;	
+}
+#DSM_TabContent_Severity {
+	display: none;	
+}
+#DSM_TabContent_DSM-IV {
+	display: none;	
+}
+
+/* ---- FOOTER ---- */
+
+#DSM_Footer {
+	clear: both;
+	text-align: center;
+}
+#DSM_Footer p {
+	margin-bottom: 12px;
+}
+#DSM_Footer .DSM_Tagline {
+	color: #6699CC;
+	font-size: 20px;
+}
+#DSM_Footer a:link, #DSM_Footer a:visited, #DSM_Footer a:hover {
+	font-weight: normal;
+}
+#DSM_Footer .DSM_SocialLinks {
+	text-align: left;
+}
+
+/* ---- SHAREPOINT ADMIN BAR & EDITOR POSITION ---- */
+
+#SP_adminBar {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	text-align: right;
+	z-index: 2000;
+}
+.SP_editorPosition {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	z-index: 3000;
+}
+#SP_adminBar a#zz3_SiteActionsMenu:link, #SP_adminBar a#zz3_SiteActionsMenu:visited,
+#SP_adminBar a#zz3_SiteActionsMenu:hover,
+#SP_adminBar a#zz5_SiteActionsMenu:link, #SP_adminBar a#zz5_SiteActionsMenu:visited,
+#SP_adminBar a#zz5_SiteActionsMenu:hover  {
+	color: #FFFFFF;
+}
+
+/* ---- SHAREPOINT STYLES TO OVERRIDE ---- */
+
+div.ms-WPBody {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+}
+div.ms-WPBody td {
+
+}
+.removeMargins {
+	margin: 0px;
+}
+.ms-formlabel, .ms-formbody {
+	font-size: 11px;
+}
+
+div.ms-wpbody a:link {}
+div.ms-wpbody a:visited {}
+div.ms-wpbody a:hover {}  
+
+.ms-WPBody A:link, .ms-WPBody a:visited {
+	color: #336699 !important;	
+	font-weight: bold;
+	text-decoration: none !important;
+}
+.ms-WPBody a:hover {
+	color: #336699 !important;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+
+.ms-vb A, .ms-vb A:link, .ms-vb a:visited {
+	color: #336699 !important;	
+	font-weight: bold;
+	text-decoration: none !important;
+}
+.ms-vb a:hover {
+	color: #336699 !important;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+
+
+/* ----- STYLES AVAILABLE FOR HTML EDITORS ---- */
+
+.ms-rteCustom- {
+
+}
+
+#DSM_LeftColBio {
+	float: left;
+	width: 444px;
+	padding: 10px 6px 10px 6px;
+	background-color: #FFFFFF;
+	min-height: 130px;
+}
+#DSM_RightColBio {
+	float: right;
+	width: 212px;
+	padding: 10px 0px 10px 0px;
+	min-height: 130px;
+}
+
+.dsm-gb td{
+color:#000000;
+}
+
+/*
+.dsm-gb a{
+color:#003399;
+}
+*/
+.dsm-gb{
+height:22px;
+font-weight:bold;
+/*
+background-color:#ffffff;
+font-size:8pt;
+font-family:tahoma,sans-serif;
+border-bottom:1px solid #8ebbf5;
+border-top:1px solid #f9f9f9; 
+padding-bottom:3px;
+*/
+}
+
+.dsm-gb h3.ms-standardheader{
+margin-top:1em;
+}
+
+/*
+.dsm-gb .ms-standardheader{
+color:#000000;
+}
+*/

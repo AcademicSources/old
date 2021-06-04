@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="expires" content="0"/>
+	    <link rel="stylesheet" type="text/css" href="../_layouts/1033/styles/help.css"/>
+		<title>Help</title>
+	</head>
+	<script type="text/javascript" language="javascript" src="../_layouts/1033/init.js"></script>
+<script type="text/javascript" language="javascript" src="../_layouts/1033/core.js"></script>
+	<body class="ms-HPMainBody">
+		<form id="serverHelp" method="get">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr> <td height="16px" width="100%">
+ </td> </tr> </table>
+<!-- NavigBar, Start. -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavImage">
+<a href="javascript:HelpBack();"><img src="../_layouts/images/HBack.Png" class="ms-HPNavImage" title="Back" alt="Back"/></a> </td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavImage">
+<a href="javascript:HelpForward();"><img class="ms-HPNavImage" src="../_layouts/images/HForward.Png" title="Forward" alt="Forward"/></a> </td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavImage">
+<a href="../_layouts/Help_lcid_1033.html"><img class="ms-HPNavImage" src="../_layouts/images/HHome.Png" title="Home" alt="Home"/></a> </td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavImage">
+<a href="javascript:HelpPrint();"><img class="ms-HPNavImage" src="../_layouts/images/HPrint.Png" title="Print" alt="Print"/></a></td>
+<td height="26px" width="100%" background="../_layouts/images/HSlice.Png"></td>
+<td class="ms-HPNavImage">
+<img src="../_layouts/images/HMagnify.Png" title="Search" alt="Search"/></a></td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavSearchTextSurround">
+<input class="ms-HPNavSearchText" type="text" id="idSearchText" name="searchText" maxlength="256" title="Search for" onkeypress="return HelpSearchTextEnterKey(event);"/></td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+<td class="ms-HPNavSearchButton1">
+<input class="ms-HPNavSearchButton2" type="button" id="idSearchButton" name="searchButton" onmouseup="HelpSearch(document.forms[0].idSearchText.value);" value="Go"/></td>
+<td><img class="ms-HPNavigSlicePadding" src="../_layouts/images/HSlice.Png" alt=""/></td>
+</tr> </table>
+<script type="text/javascript" language="javascript">
+function HelpSearchTextEnterKey(theOnKeyPressEvent)
+{
+	if (theOnKeyPressEvent
+		&& theOnKeyPressEvent.keyCode == 13
+		)
+	{
+		HelpSearch(document.forms[0].idSearchText.value);
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+</script>
+<!-- NavigBar, End. -->
+<script type="text/javascript" language="javascript">
+ var glob_strCollectionIds=new Array(0);
+ var glob_strLocaleNumId='1033';
+ var glob_strPageStart='1';
+ var glob_strToSearchFor='';
+ document.forms[0].elements["idSearchText"].value=glob_strToSearchFor;
+</script>
+<pre>
+</pre>
+		</form>
+	</body>
+</html>
